@@ -1,7 +1,10 @@
-inp=int(input("enter the number"))
-for i in range(1,10):
-    mul = inp*i
-    print(mul)
-    # mul=mul*i
-    # print(mul)
+inp_num=int(input("enter the number"))
+
+#starting the loops from the 1st to the last last number
+
+
+for num in range(1,10):
     
+    multiply = inp_num * num
+    print(multiply)
+   
